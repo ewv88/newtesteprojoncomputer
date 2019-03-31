@@ -1,0 +1,53 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+sample text
+
+\[
+e^{i \pi} = -1
+\]
+
+
+```{r text, echo=T}
+x <- rnorm(30)
+y <- rnorm(30)
+
+plot(x, y)
+```
+
+```{r purl=T}
+print("hello")
+```
+
+
+Inline math is marked off witha pair of dollar
+signs (`$`), as $\pi r^2$ or $e^{i\pi}$.  
+$\lambda$
+\[ [1]~~~~~~   
+\lambda \frac {e}{\partial e}
+\frac {e}\partial{e} f    ~~~~~~~~~~~~~~~~~~~~~~~d
+\]
+
+[1]~~~~~~ \[   
+\mathbf{T'T}
+\]
+
+\[
+\sum_{1}^{n}{erf}\]
+
+\[
+\newcommand{\Expect}[1]{\mathbb{E}\left[ #1 \right]}
+\]
+
+\[
+\Expect e
+\]
+
+\[
+\mathrm {E} [w]
+\]
+\[
+\mathbb {E} \left [ w \right]
+\]
